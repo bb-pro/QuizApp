@@ -7,13 +7,26 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
+//MARK: - IB Outlets
+    @IBOutlet var scoreLabel: UILabel!
+    @IBOutlet var questionLabel: UILabel!
+    @IBOutlet var progressBar: UIProgressView!
+    
+    @IBOutlet var firstButton: UIButton!
+    @IBOutlet var secondButton: UIButton!
+    @IBOutlet var thirdButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
     }
+    
+    @IBAction func answerButtonPressed(_ sender: UIButton) {
+    }
+    
 
-
+    
 }
 

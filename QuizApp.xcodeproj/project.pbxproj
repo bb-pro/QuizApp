@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDE40E62298BC8DE008D0345 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE40E61298BC8DE008D0345 /* Question.swift */; };
+		EDE40E64298BCA10008D0345 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE40E63298BCA10008D0345 /* QuizBrain.swift */; };
 		EDF3FAA5298BBC020090DB69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF3FAA4298BBC020090DB69 /* AppDelegate.swift */; };
 		EDF3FAA7298BBC020090DB69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF3FAA6298BBC020090DB69 /* SceneDelegate.swift */; };
 		EDF3FAA9298BBC020090DB69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF3FAA8298BBC020090DB69 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EDE40E61298BC8DE008D0345 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		EDE40E63298BCA10008D0345 /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
 		EDF3FAA1298BBC020090DB69 /* QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF3FAA4298BBC020090DB69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDF3FAA6298BBC020090DB69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				EDF3FAA4298BBC020090DB69 /* AppDelegate.swift */,
 				EDF3FAA6298BBC020090DB69 /* SceneDelegate.swift */,
 				EDF3FAA8298BBC020090DB69 /* ViewController.swift */,
+				EDE40E61298BC8DE008D0345 /* Question.swift */,
+				EDE40E63298BCA10008D0345 /* QuizBrain.swift */,
 				EDF3FAAA298BBC020090DB69 /* Main.storyboard */,
 				EDF3FAAD298BBC040090DB69 /* Assets.xcassets */,
 				EDF3FAAF298BBC040090DB69 /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE40E64298BCA10008D0345 /* QuizBrain.swift in Sources */,
 				EDF3FAA9298BBC020090DB69 /* ViewController.swift in Sources */,
+				EDE40E62298BC8DE008D0345 /* Question.swift in Sources */,
 				EDF3FAA5298BBC020090DB69 /* AppDelegate.swift in Sources */,
 				EDF3FAA7298BBC020090DB69 /* SceneDelegate.swift in Sources */,
 			);
