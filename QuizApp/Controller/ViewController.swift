@@ -18,16 +18,17 @@ final class ViewController: UIViewController {
     @IBOutlet var firstButton: UIButton!
     @IBOutlet var secondButton: UIButton!
     @IBOutlet var thirdButton: UIButton!
-    
-    var quizbrain = QuizBrain()
 
-    
+//MARK: - Private Properties
+    private var quizbrain = QuizBrain()
+
+//MARK: - Override Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         updateUI()
         progressBar.progress = 0
     }
-    
+//MARK: - IB Actions
     @IBAction func answerButtonPressed(_ sender: UIButton) {
         let buttons: [UIButton] = [firstButton!, secondButton!, thirdButton!]
         let userAnswer = sender.currentTitle!
@@ -45,12 +46,11 @@ final class ViewController: UIViewController {
             }
         }
         
-        
         quizbrain.nextQuestion()
         
         Timer.scheduledTimer(timeInterval: 0.6, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
     }
-    
+//MARK: - Public Methods
     @objc func updateUI() {
         questionLabel.text = quizbrain.getQuestionText()
         progressBar.progress = quizbrain.getProgress()
