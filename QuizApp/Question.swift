@@ -9,7 +9,7 @@ import Foundation
 
 struct Question {
     let text: String
-    let answer: [String] = []
+    var answer: [String] = []
     let correct: String
     
     init(q: String, a: [String], correctAnswer: String) {
