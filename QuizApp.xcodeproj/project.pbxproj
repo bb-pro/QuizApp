@@ -41,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EDE40E68298BF198008D0345 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDE40E63298BCA10008D0345 /* QuizBrain.swift */,
+				EDE40E61298BC8DE008D0345 /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDE40E69298BF1A0008D0345 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDF3FAAA298BBC020090DB69 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EDE40E6A298BF1AB008D0345 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EDF3FAA8298BBC020090DB69 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		EDF3FA98298BBC020090DB69 = {
 			isa = PBXGroup;
 			children = (
@@ -62,10 +87,9 @@
 			children = (
 				EDF3FAA4298BBC020090DB69 /* AppDelegate.swift */,
 				EDF3FAA6298BBC020090DB69 /* SceneDelegate.swift */,
-				EDF3FAA8298BBC020090DB69 /* ViewController.swift */,
-				EDE40E61298BC8DE008D0345 /* Question.swift */,
-				EDE40E63298BCA10008D0345 /* QuizBrain.swift */,
-				EDF3FAAA298BBC020090DB69 /* Main.storyboard */,
+				EDE40E68298BF198008D0345 /* Model */,
+				EDE40E69298BF1A0008D0345 /* View */,
+				EDE40E6A298BF1AB008D0345 /* Controller */,
 				EDF3FAAD298BBC040090DB69 /* Assets.xcassets */,
 				EDF3FAAF298BBC040090DB69 /* LaunchScreen.storyboard */,
 				EDF3FAB2298BBC040090DB69 /* Info.plist */,
