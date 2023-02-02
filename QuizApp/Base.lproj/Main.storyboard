@@ -31,6 +31,9 @@
                                         <state key="normal" title="firstButton" backgroundImage="Rectangle">
                                             <color key="titleColor" systemColor="labelColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9yA-1x-Ku3"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ZY-Z2-BNf">
                                         <rect key="frame" x="0.0" y="81" width="375" height="68"/>
@@ -38,6 +41,9 @@
                                         <state key="normal" title="secondButton" backgroundImage="Rectangle">
                                             <color key="titleColor" systemColor="labelColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cgt-mF-Juq"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6My-Qi-GKx">
                                         <rect key="frame" x="0.0" y="162" width="375" height="68"/>
@@ -45,6 +51,9 @@
                                         <state key="normal" title="thirdButton" backgroundImage="Rectangle">
                                             <color key="titleColor" systemColor="labelColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yR1-1H-0Il"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -86,6 +95,14 @@
                             <constraint firstItem="xRr-Vz-g1Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wAp-rZ-7sL"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="firstButton" destination="Ym9-vQ-wPR" id="5Jt-uq-4eq"/>
+                        <outlet property="progressBar" destination="8q7-Gv-Y6v" id="vDy-Ip-cva"/>
+                        <outlet property="questionLabel" destination="dpb-A2-DgS" id="UPm-kg-7TW"/>
+                        <outlet property="scoreLabel" destination="gQ4-bg-EY1" id="IIc-g2-nEd"/>
+                        <outlet property="secondButton" destination="3ZY-Z2-BNf" id="LRG-Rn-QEU"/>
+                        <outlet property="thirdButton" destination="6My-Qi-GKx" id="9fw-Zs-FB5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
